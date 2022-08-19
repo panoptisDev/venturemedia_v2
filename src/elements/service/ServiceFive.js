@@ -49,7 +49,6 @@ const ServiceFive = ({textAlign, serviceStyle}) => {
                                     <h4 className="title">
                                         <Link to="#service" dangerouslySetInnerHTML={{__html: val.title}}></Link>
                                     </h4>
-                                    <p className="description" dangerouslySetInnerHTML={{__html: val.description}}></p>
                                 </div>
                                 <div className="" >
                                     <img src={`${val.image}`} style={{borderRadius:"10px", height:"10px !important"}} alt="card Images" />
